@@ -1,0 +1,25 @@
+hgroup{
+    color: red;
+}
+div{
+    color: green;
+}
+span{
+    color: blue;
+}
+figure{
+    border: solid black;
+    display:block ;
+    max-width: 200px;
+    margin:auto ;
+
+}
+img{
+    max-width: 200px ;
+    max-height: 200px;
+}
+figcaption{
+    background-color:black ;
+    color: rgb(255, 255, 255) ;
+    text-align:center;
+}

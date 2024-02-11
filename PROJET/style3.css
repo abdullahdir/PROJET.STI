@@ -1,0 +1,46 @@
+ #titre1 {
+    animation-duration:4s;
+    animation-direction:alternate ;
+    animation-name: glissement;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+  }
+  @keyframes glissement {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+h2{
+  animation-name: fade;
+  animation-delay: 1s;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+
+}
+@keyframes fade{
+  from{
+    opacity: 1;
+    color: red;
+  }
+  to{
+    opacity: 0;
+
+  }
+
+  }
+  #par:hover{
+    color: rgb(255, 0, 0);
+  }
+
+  
+
+
+  
